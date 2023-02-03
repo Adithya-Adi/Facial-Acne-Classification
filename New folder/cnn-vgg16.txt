@@ -1,0 +1,9 @@
+1.1    VGG16
+VGG16 was publised in 2014 and is one of the simplest (among the other cnn architectures used in Imagenet competition). It's Key Characteristics are:
+
+This network contains total 16 layers in which weights and bias parameters are learnt.
+A total of 13 convolutional layers are stacked one after the other and 3 dense layers for classification.
+The number of filters in the convolution layers follow an increasing pattern (similar to decoder architecture of autoencoder).
+The informative features are obtained by max pooling layers applied at different steps in the architecture.
+The dense layers comprises of 4096, 4096, and 1000 nodes each.
+The cons of this architecture are that it is slow to train and produces the model with very large size.
